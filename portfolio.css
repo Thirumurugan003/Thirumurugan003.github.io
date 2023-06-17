@@ -1,0 +1,162 @@
+body {
+    background-color: #e0fbfc;
+  }
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  .navlist {
+    background-color: teal;
+    list-style-type: none;
+    display: flex;
+    width: 98%;
+    margin: 0;
+    justify-content: flex-end;
+  }
+  .navlist li {
+    display: flex;
+    margin: 0;
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .navlist a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 25px;
+  }
+  .navlist a:hover {
+    background-color: #e0fbfc;
+    color: red;
+    font-weight: bold;
+  }
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 30px;
+  }
+  
+  .home > p {
+    font-size: 2rem;
+    font-weight: normal;
+    font-style: italic;
+    color: red;
+  }
+
+  .home h1{
+    text-shadow: 2px 2px yellow;
+    font-weight: bold;
+  }
+  
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 30px;
+  }
+  .about h1{
+    text-shadow: 2px 2px yellow;
+    font-weight: bold;
+  }
+  
+  .skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 30px;
+  }
+  .skills h1{
+    text-shadow: 2px 2px yellow;
+    font-weight: bold;
+  }
+  .commondiv{
+    width:50%;
+    display: flex;
+  }
+  .frontend{
+    border-radius: 20px ;
+    background-color: teal;
+    padding: 4% 10% 4% 10%;
+    height: 34rem;
+    margin: 10px;
+    flex: 1;
+    width:100%;
+  }
+  .frontend:hover{
+    box-shadow: 0px 0px 40px 10px grey;
+  }
+  .frontend h1{
+    text-shadow:2px 2px blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+  }
+  .frontend h2{
+    text-decoration: underline;
+    font-size: larger;
+  }
+  .programming{
+    border-radius: 20px;
+    background-color: teal;
+    margin-right:20%;
+    margin-left: 20%;
+    margin-top: 1%;
+    padding: 4% 10% 4% 10%;
+    height: 22rem;
+    text-align: left;
+  }
+  .programming:hover{
+    box-shadow: 0px 0px 40px 10px grey;
+  }
+  .programming h1{
+    text-shadow:2px 2px blueviolet;
+    font-weight: bold;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+  }
+  .programming h2{
+    text-decoration: underline;
+    font-size: larger;
+  }
+  
+  .contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 30px;
+  }
+  .contact h1{
+    text-shadow: 2px 2px yellow;
+    font-weight: bold;
+  }
+  .touchme{
+    border-radius: 30px;
+    width: 40rem;
+    height: 5rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    background-color: teal;
+  }
+  .footer{
+    font-size: larger;
+    text-align: center;
+  }
